@@ -432,7 +432,7 @@ scene("game", ({ level, score }) => {
 
   player.collides('pipe1', () => {
     // Redireciona para a página da fase quando o jogador colide com o objeto pipe1
-    window.location.href = 'Fases do jogo/fase2/index.html';
+    window.location.href = '../fase2/index.html';
   });
   player.collides('pipe2', () => {
     // Navegue de volta para o início do mapa
